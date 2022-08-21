@@ -1,4 +1,5 @@
 # softwarelab3Q1
+LAMP Stack:
 There are four software components that make up Linux-based web servers. The software stack is made up of several elements, which are grouped in layers and support one another. This underlying stack is the foundation for websites and web applications. Typical software elements of a conventional LAMP stack include:
 Linux: Our first layer is the operating system (OS). The stack model's foundation is laid by Linux. This layer is followed by all other layers.
 Web server software, often Apache Web Server, makes up the second layer. The Linux layer is followed by this layer. The translation from web browsers to the proper website is done by web servers.
@@ -9,9 +10,9 @@ PHP: Our fourth and final layer is positioned on top of them all. PHP and/or oth
 
 One of the most widely used web servers worldwide is Apache.
 It is a fantastic default option for hosting a website because it is well-documented and has been widely used for a significant portion of the history of the web.
-So, execute the next command:
+ execute the next command:
 
- Install Apache:
+To Install Apache:
 
 sudo apt update 
 sudo apt Install Apache2 
@@ -37,7 +38,6 @@ Profile: Apache Full
 Title: Web Server (HTTP,HTTPS)
 Description: Apache v2 is the next generation of the omnipresent Apache web
 server.
- 
 Ports:
   80,443/tcp
 
